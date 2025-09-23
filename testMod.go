@@ -5,5 +5,5 @@ import (
 )
 
 func printHello(name string) {
-	fmt.Printf("Hello, %s\n", name)
+	fmt.Printf("Hi, %s\n", name)
 }
