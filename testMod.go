@@ -1,5 +1,7 @@
 package test_mod
 
+import "fmt"
+
 func printHello(name string) string {
-	return "Hi, " + name
+	return fmt.Sprintf("Hi, %s", name)
 }
